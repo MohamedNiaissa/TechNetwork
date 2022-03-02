@@ -1,8 +1,12 @@
 h2{
     position:relative;
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     top:30%;
     margin: 0 auto;
     font-size: 400%;
+}
+
+body{
+    background-image:url("/ressources/home.jpg");
 }

@@ -1,15 +1,15 @@
 <?php
 
-    $existing_pages = ['home', 'Login', 'Profil' ,'FormPhoto', "Infoimg","Logout",'Signup', 'Contact','Galerie'];
+    $existing_pages = ['Home', 'Login', 'Profil', "Infoimg","Logout",'Signup', 'Contact','Galerie'];
 
     //header("Location: /src/views/pages/Home.php");
 
-    $page = "home";
+    $page = "Home";
 
     if(!empty($_GET['p'])){
         if(str_contains($_GET['p'],"Infoimg")){
             $page = "Infoimg";
-         
+
             $urlImgInfo = strstr($_GET['p'], 'g?'); // prend toute la chaine à partir de g?
             include (__DIR__."/../src/views/pages/$page.php");
             exit();
@@ -19,6 +19,7 @@
             $page = $_GET['p'];
         }
     }
+    // echo $_GET['p'];
 
     include (__DIR__."/../src/views/pages/$page.php");
 

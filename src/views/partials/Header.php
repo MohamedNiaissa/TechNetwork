@@ -24,8 +24,13 @@
     .brandName { grid-area: 3 / 4 / 4 / 5; }
     .menuBar { grid-area: 2 / 7 / 3 / 8; }
 
-    body{
+    /* body{
         background-image:url("ressources/home.jpg");
+    } */
+
+    a{
+        text-decoration:none;
+        color:black;
     }
 
     .nav{
@@ -60,8 +65,8 @@
             <div class = "menuBar">
                 <navbar>
                     <ul class = nav>
-                        <li>Home</li>
-                        <li>Login</li>
+                        <li><a href="/?p=Home">Home</a></li>
+                        <li><a href="/?p=Login"> Login </a></li>
                     </ul>
                 </navabar>
             </div>
