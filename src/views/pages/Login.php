@@ -8,18 +8,18 @@ include __DIR__."../../partials/Header.php";
     <div class="contentForm">
     <div class="signup">
         <h3>Signup</h3>
-        <form>
-            <div class="classMailSignup">
+        <form action="actions/signup.php" methode="POST">
+            <div class="classMail classMailSignup">
                 <label for="Email">Email</label>
                 <input type="email" name="mailSignup">
             </div>
 
-            <div class="classPseudoSingnup">
+            <div class="classPseudo classPseudoSingnup">
                 <label for="Pseudo">Pseudo</label>
                 <input type="text" name="pseudoSignup">
             </div>
             
-            <div class="classPasswordSignup">
+            <div class="classPassword classPasswordSignup">
                 <label for="Password">Password</label>
                 <input type="password" name="passwordSignup">
             </div>
@@ -32,21 +32,20 @@ include __DIR__."../../partials/Header.php";
 
     <div class="login">
         <h3>Login</h3>        
-        <div class="classPseudoLogin">
-            <label for="Pseudo">Pseudo </label>
-            <input type="text" name="pseudoLog">
-        </div>
-            <div class="classPasswordLogin">
-                <label for="Password">Password</label>
-                <input type="password" name="passwordLog">
+        <form  action="actions/login.php" methode="POST">
+            <div class="classPseudo classPseudoLogin">
+                <label for="Pseudo">Pseudo </label>
+                <input type="text" name="pseudoLog">
             </div>
-        <div class="submitbtn">
-            <input type="submit" value="Send">
-        </div>
+                <div class="classPassword classPasswordLogin">
+                    <label for="Password">Password</label>
+                    <input type="password" name="passwordLog">
+                </div>
+            <div class="submitbtn">
+                <input type="submit" value="Send">
+            </div>
+        </form>
     </div>
-    
-        
-      
     </div>
     
 </div>
