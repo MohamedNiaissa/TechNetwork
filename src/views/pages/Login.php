@@ -8,31 +8,31 @@ include __DIR__."../../partials/Header.php";
     <div class="contentForm">
     <div class="signup">
         <h3>Signup</h3>
-        <form action="actions/signup.php" methode="POST">
+        <form  method ="POST" action="/actions/signup.php">
             <div class="classMail classMailSignup">
                 <label for="Email">Email</label>
-                <input type="email" name="mailSignup">
+                <input type="email" name="mailSignup" />
             </div>
 
             <div class="classPseudo classPseudoSingnup">
                 <label for="Pseudo">Pseudo</label>
-                <input type="text" name="pseudoSignup">
+                <input type="text" name="pseudoSignup" />
             </div>
             
             <div class="classPassword classPasswordSignup">
                 <label for="Password">Password</label>
-                <input type="password" name="passwordSignup">
+                <input type="password" name="passwordSignup" />
             </div>
 
             <div class="submitbtn">
-                <input type="submit" value="Send">
+                <input type="submit" value="Send" />
             </div>
         </form>
     </div>
 
     <div class="login">
         <h3>Login</h3>        
-        <form  action="actions/login.php" methode="POST">
+        <form  method="POST" action="/actions/login.php">
             <div class="classPseudo classPseudoLogin">
                 <label for="Pseudo">Pseudo </label>
                 <input type="text" name="pseudoLog">

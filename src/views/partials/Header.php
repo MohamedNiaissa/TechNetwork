@@ -45,9 +45,9 @@
     }
 
 
-    img{
+    .icon {
         position: absolute;
-        left: 45px;
+        left: 35px;
         top: 25px;
     }
     
@@ -57,7 +57,7 @@
     <header> 
         <div class = "header">
             <div class = "imgLogo">
-                <img src="ressources/iconTechNetwork.png" alt="Icone" width="100px"/>
+                <img class = "icon"src="ressources/iconTechNetwork.png" alt="Icone" width="100px"/>
             </div>
             <div class = "brandName">
                 <h1>TechNetwork</h1>
