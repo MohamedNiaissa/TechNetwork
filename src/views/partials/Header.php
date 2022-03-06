@@ -58,8 +58,8 @@
             <div class = "menuBar">
                 <navbar>
                     <ul class = nav>
-                       
-                        <?php if(empty($_SESSION)){
+                        <?php 
+                        if(empty($_SESSION)){
                             echo ' <li><a href="/?p=Home">Home</a></li>
                                   <li><a href="/?p=Login"> Login </a></li>';
                         }else{
@@ -68,7 +68,6 @@
                                     <li><a href="/?p=Logout">Logout</a></li>
                                     <li><a href="/?p=Contact">Contact</a></li>'
                                     ;
-
                         }?>
                     </ul>
                 </navabar>

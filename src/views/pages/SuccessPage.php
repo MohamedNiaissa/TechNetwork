@@ -11,6 +11,6 @@ include __DIR__."../../partials/Header.php";
             <img class ="firstImg" src="ressources/congratulation.png" alt="congratsImg">
             <img class ="secondImg" src="ressources/congratulation.png" alt="congratsImg">
         </div>
-        <a class = "link" href = "#"> Go to my profil </a>
+        <a class = "link" href = "/?p=Profil"> Go to my profil </a>
     </div>
 </div>
