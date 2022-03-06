@@ -16,7 +16,7 @@ include __DIR__."../../partials/Header.php";
     <div class="actions">
         <div class="post">
             <span>
-                <a href="#">Post</a> 
+                <a href="#"> &nbsp; Post &nbsp; </a> 
             </span>
         </div>
     

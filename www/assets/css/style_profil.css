@@ -38,11 +38,24 @@ body{
 
 .actions{
     display: flex;
+
 }
 
 .post, .library {
     background-color: #9cc7e4;
-    padding: 60%;
+    font-size: 200%;
+    padding: 4% 6% 4% 6%;
+    border-radius: 50px;
+}
+
+.post{
+    position: absolute;
+    left: 10%;
+}
+
+.library{
+    position:absolute;
+    right:10%;
 }
 
 .library a,.post a{
