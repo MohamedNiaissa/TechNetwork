@@ -58,8 +58,18 @@
             <div class = "menuBar">
                 <navbar>
                     <ul class = nav>
-                        <li><a href="/?p=Home">Home</a></li>
-                        <li><a href="/?p=Login"> Login </a></li>
+                       
+                        <?php if(empty($_SESSION)){
+                            echo ' <li><a href="/?p=Home">Home</a></li>
+                                  <li><a href="/?p=Login"> Login </a></li>';
+                        }else{
+                            echo ' <li><a href="/?p=Profil">Profil</a></li>
+                                    <li><a href="/?p=Publications"> Publications </a></li>
+                                    <li><a href="/?p=Logout">Logout</a></li>
+                                    <li><a href="/?p=Contact">Contact</a></li>'
+                                    ;
+
+                        }?>
                     </ul>
                 </navabar>
             </div>
