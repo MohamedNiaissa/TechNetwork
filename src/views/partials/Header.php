@@ -19,14 +19,9 @@
         border-radius:68px
     }
 
-
     .imgLogo { grid-area: 2 / 1 / 3 / 2; }      /*  2 / 2 / 3 / 3; */ 
     .brandName { grid-area: 3 / 4 / 4 / 5; }
     .menuBar { grid-area: 2 / 7 / 3 / 8; }
-
-    /* body{
-        background-image:url("ressources/home.jpg");
-    } */
 
     a{
         text-decoration:none;
@@ -43,8 +38,6 @@
     .nav li{
         margin-right:20px;
     }
-
-
     .icon {
         position: absolute;
         left: 35px;
