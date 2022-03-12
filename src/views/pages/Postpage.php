@@ -12,6 +12,11 @@ include __DIR__."../../partials/Header.php";
     
     <form action= "actions/post.php"method="POST">
         
+        <div class="classTitre">
+            <label for="img">Titre</label>
+            <input  type="text" name="titre" />
+        </div>
+    
         <div class="classImg">
             <label for="img">Image</label>
             <input type="text" name="link_img" />
@@ -30,7 +35,7 @@ include __DIR__."../../partials/Header.php";
     
         <div class="classTag">
             <label for="tag">Tag</label>
-            <input type="text" name="tag" />
+            <input class="area" type="text" name="tag" />
         </div>
     
     
