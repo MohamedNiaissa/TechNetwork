@@ -29,6 +29,7 @@ $mdp = $_POST["passwordLog"];
     }else{
         session_start();
         $_SESSION["username"] = $pseudo;
+        $_SESSION["userID"] = $data["userID"];
         header("Location: /?p=Profil");
     }
 

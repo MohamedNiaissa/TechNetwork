@@ -1,0 +1,22 @@
+body{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    
+}
+
+h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contentLib{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.info{
+    display: flex;
+    flex-direction: column-reverse;
+}

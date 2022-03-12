@@ -29,6 +29,7 @@ $id = $db->lastInsertId();
 
 $_SESSION["username"] = $userPseudo;
 $_SESSION["userMail"] = $userMail;
+$_SESSION["userID"] = $id;
 
 
 // sleep(5);

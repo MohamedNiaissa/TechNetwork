@@ -22,7 +22,7 @@ include __DIR__."../../partials/Header.php";
     
         <div class="library">
             <span>
-               <a href="#">Library</a> 
+               <a href="/?p=Library">Library</a> 
             </span>
         </div>
     </div>
