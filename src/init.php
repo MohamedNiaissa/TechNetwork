@@ -1,6 +1,6 @@
 <?php
 
-    $existing_pages = ['Home', 'Login', 'Profil', "SuccessPage","Infoimg","Logout",'Signup', 'Contact','Galerie'];
+    $existing_pages = ['Home', 'Login', 'Profil', "SuccessPage","Publications","Postpage","Infoimg","Logout",'Signup', 'Contact','Galerie'];
 
     //header("Location: /src/views/pages/Home.php");
 

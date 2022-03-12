@@ -1,0 +1,44 @@
+body{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    
+}
+
+.contentPost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    width: 100%;
+    height: 80%;
+}
+
+.contentPost > form > div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+    align-items: center;
+}
+
+input[type='text']{ 
+    background-color: #B4E0EE;
+    border: none;
+    height: 21px;
+    width: 210px;
+}
+.contentPost > form > div > textarea {
+    background-color: #B4E0EE;
+    border: none;
+    height: 110px;
+    width: 210px;
+}
+
+.publishbtn input{
+    color: aliceblue;
+    height: 40px;
+    width: 90px;
+    border-radius: 20%;;
+    background-color: #B4E0EE;
+    border: none;
+}

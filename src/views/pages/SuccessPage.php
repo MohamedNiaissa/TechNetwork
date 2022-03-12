@@ -1,4 +1,4 @@
-<link rel = "stylesheet" href = "/assets/css/style_success.css" /> 
+<link rel = "stylesheet" href = "/assets/css/style_success.scss" /> 
 <?php
 include __DIR__."../../partials/Header.php";
 ?>

@@ -1,4 +1,4 @@
-<link rel = "stylesheet" href = "/assets/css/style_profil.css" /> 
+<link rel = "stylesheet" href = "/assets/css/style_profil.scss" /> 
 
 <?php
 include __DIR__."../../partials/Header.php";
@@ -16,7 +16,7 @@ include __DIR__."../../partials/Header.php";
     <div class="actions">
         <div class="post">
             <span>
-                <a href="#"> &nbsp; Post &nbsp; </a> 
+                <a href="/?p=Postpage"> &nbsp; Post &nbsp; </a> 
             </span>
         </div>
     

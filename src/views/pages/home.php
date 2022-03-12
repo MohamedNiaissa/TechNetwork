@@ -1,4 +1,4 @@
-<link rel = "stylesheet" href = "/assets/css/style_home.css" /> 
+<link rel = "stylesheet" href = "/assets/css/style_home.scss" /> 
 
 <div class="contentHome">
 <?php
