@@ -5,12 +5,12 @@ require_once __DIR__."/../../src/db.php";
 $pseudo = $_SESSION["username"];
 $id = $_SESSION["userID"];
 
-
+var_dump($id);
 
 $sqllibrary = 'SELECT imageURL,titre,description,nbrLikes FROM postImage WHERE userID = :userID' ;
 $query_library = $db->prepare($sqllibrary);
 $query_library->execute([
-    ":userID" => $id,
+    ":userID" => $id
 ]);
 
 
@@ -18,7 +18,7 @@ $query_library->execute([
 $data_library = $query_library->fetchALL(PDO::FETCH_ASSOC);
 
 if($data_library == FALSE){
-    echo "<span> Your library is empty ...</span>";
+    echo "<span> Your library is empty ... </span>";
 }else{
     var_dump($data_library);
 }

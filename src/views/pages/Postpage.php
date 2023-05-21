@@ -24,11 +24,11 @@ include __DIR__."../../partials/Header.php";
     
     
         <div class="classDesc">
-        <label for="desc">Description</label>
+            <label for="desc">Description</label>
 
-        <textarea id="story" name="description"
-          rows="5" cols="33">
-        </textarea>
+            <textarea id="story" name="description"
+            rows="5" cols="33">
+            </textarea>
 
         </div>
     
